@@ -1,0 +1,18 @@
+langchain
+langchain-google-genai>=2.1.5
+langgraph
+langsmith
+notebook>=7.4.3
+python-dotenv>=1.1.0
+langchain-community
+langchain-openai # For embeddings
+unstructured # Document loading
+# onnxruntime==1.17.1 # chromadb dependency: on Mac use `conda install onnxruntime -c conda-forge`
+# For Windows users, install Microsoft Visual C++ Build Tools first
+# install onnxruntime before installing `chromadb`
+chromadb # Vector storage
+openai # For embeddings
+tiktoken==0.7.0  # For embeddings 
+sentence_transformers
+langchain_huggingface
+unstructured[md]
